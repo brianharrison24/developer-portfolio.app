@@ -58,9 +58,11 @@ export function Hero() {
               <ArrowRight className="size-4" />
             </a>
             <a
-              href="/resume.pdf"
-              className="inline-flex items-center gap-2 rounded-full border-2 border-primary px-6 py-3 text-sm font-semibold text-primary transition-colors hover:bg-primary hover:text-primary-foreground"
-            >
+             href="/Ligason,%20Bryan_CV.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            download="Ligason, Bryan_CV.pdf"
+            className="inline-flex items-center gap-2 rounded-full border-2 border-primary px-6 py-3 text-sm font-medium transition-colors hover:bg-primary/10">
               <FileText className="size-4" />
               Download CV / Resume
             </a>
