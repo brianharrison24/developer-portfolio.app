@@ -15,9 +15,7 @@ function GithubIcon({ className }: { className?: string }) {
 
 type Project = {
   title: string
-  description: string
   year: string
-  tags: string[]
   href: string
   liveHref?: string
   showCodeIcon?: boolean 
@@ -26,20 +24,14 @@ type Project = {
 const projects: Project[] = [
   {
     title: 'Push On Fitness App',
-    description:
-      'A responsive web app built for fitness tracking, custom training splits, and a dynamic macro calculator.',
     year: '2026',
-    tags: ['HTML5', 'CSS3', 'JavaScript', 'Git'],
     href: 'https://brianharrison24.github.io/pushon-app/',
     liveHref: 'https://brianharrison24.github.io/pushon-app/',
     showCodeIcon: true, 
   },
   {
     title: 'Brian Harrison || About',
-    description:
-      'A clean personal portfolio website showcasing visual layouts, interactive elements, and responsive designs.',
     year: '2026',
-    tags: ['HTML5', 'CSS3', 'JavaScript', 'Git'],
     href: 'https://brianharrison24.github.io/About/',
     liveHref: 'https://brianharrison24.github.io/About/',
     showCodeIcon: true, 
@@ -73,24 +65,10 @@ function ProjectCard({ project }: { project: Project }) {
         </a>
       </div>
 
-      <div className="relative mt-12">
+      <div className="relative mt-8">
         <h3 className="text-2xl font-semibold tracking-tight transition-colors group-hover:text-primary">
           {project.title}
         </h3>
-        <p className="mt-3 text-pretty text-sm leading-relaxed text-muted-foreground">
-          {project.description}
-        </p>
-
-        <ul className="mt-5 flex flex-wrap gap-2">
-          {project.tags.map((tag) => (
-            <li
-              key={tag}
-              className="rounded-full border border-border px-3 py-1 font-mono text-[11px] text-muted-foreground"
-            >
-              {tag}
-            </li>
-          ))}
-        </ul>
 
         <div className="mt-6 flex flex-wrap gap-3">
           {project.liveHref && (
