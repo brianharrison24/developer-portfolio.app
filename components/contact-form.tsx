@@ -58,7 +58,7 @@ const contactLinks: ContactLink[] = [
   },
   {
     name: 'Instagram',
-    href: 'https://www.instagram.com',
+    href: 'https://www.instagram.com/brian_romeo__',
     isExternal: true,
     icon: InstagramIcon,
   },
@@ -81,9 +81,6 @@ export function ContactForm() {
           Contact Me
         </h2>
 
-        <p className="mt-3 text-sm text-muted-foreground sm:text-base">
-          Let&apos;s collaborate! Reach me through any of the platforms below:
-        </p>
 
         {/* Social Pill Buttons */}
         <div className="mt-8 flex flex-wrap items-center justify-center gap-3 sm:gap-4">

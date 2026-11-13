@@ -1,7 +1,7 @@
 const socials = [
   { label: 'GitHub', href: 'https://github.com' },
   { label: 'Facebook', href: 'https://www.facebook.com/bryanligason' },
-  { label: 'Instagram', href: 'https://www.instagram.com' },
+  { label: 'Instagram', href: 'https://www.instagram.com/brian_romeo__' },
   { label: 'Gmail', href: 'https://mail.google.com/mail/?view=cm&fs=1&to=bryanligason1@gmail.com' },
 ]
 
